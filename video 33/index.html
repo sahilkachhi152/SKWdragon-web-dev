@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         :root {
+            --color: rgb(31, 230, 21);
+            --seccolor: rgb(247, 74, 233);
+            --tercolor: rgb(102, 102, 184);
+            --forcolor: rgb(245, 166, 166);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            display: flex;
+        }
+        div nav {
+              border: 2px solid black;
+            padding: 0px 25px;
+            margin: 2px;
+        }
+        nav:first-child{
+            background-color: var(--color);
+        }
+       nav:nth-child(2){
+            background-color: var(--seccolor);
+        }
+        nav:nth-child(3){
+            background-color: var(--tercolor);
+        }
+        nav:last-child{
+            background-color: var(--forcolor);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>Home</nav>
+        <nav>Contact</nav>
+        <nav>Follow</nav>
+        <nav>About</nav>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            /* float:left; */
+            float: right;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: rgb(47, 240, 251);
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RZAgAq1anaJ1shWCMHvXUq5qquFD-L2GSg&s" alt=""
+            width="230 ">
+        <div class="card">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum saepe expedita, officia earum
+                ipsum sequi id magnam alias voluptatibus accusantium molestias blanditiis labore commodi veritatis
+                quidem, hic distinctio! Nemo cumque ipsum temporibus distinctio.
+            </p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias animi similique deleniti quia, reiciendis soluta doloremque tempora temporibus, officiis quibusdam aliquam neque. Illo ab iure at dignissimos est officiis, ut impedit ad quasi blanditiis, vero tempore, natus obcaecati aliquam nisi ex! Odit cumque, sint omnis ad neque, maxime quasi soluta ipsum dicta aspernatur nam, dolor corrupti? Delectus at fugit, illum reiciendis voluptatum ab aspernatur possimus, commodi numquam dignissimos assumenda, molestias excepturi aperiam soluta ipsam dolore consequatur deserunt? Velit corrupti expedita enim quos maxime, in qui non blanditiis. At commodi laboriosam ea rem velit doloremque, quia similique magni voluptatum nobis. Praesentium recusandae consequuntur provident repellendus. Porro autem saepe esse, odit fuga voluptates?</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>
