@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: black;
+        }
+        header{
+            background-color: palevioletred;
+            height: 10vh;
+        }
+        .container{
+            background-color: green;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+            height: 60vh;
+        }
+        .box{
+           height: 50vh;
+           width: 50vh;
+            border-radius: 5px;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .welcome{
+           color: white;
+           border: 1px solid white;
+           padding: 20px;
+           margin: 20px;
+           border-radius: 20px;
+           height: 30vh;
+           font-size: larger;
+           overflow: hidden;
+        }
+        .last{
+            background-color: white;
+            height: 10vh;
+        }
+        .circle{
+            background-color: purple;
+            /* position:fixed; */
+              height: 8vh;
+            width: 5vw;
+            float: right;            
+          margin: 3px;
+            clip-path: circle(30%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+
+    <div class="container">
+            <div class="box orange">orange</div>
+            <div class="box blue">blue</div>
+        </div>
+    </div>
+    <div class="welcome">
+        <p>Welcome to this Sigma Web Development Course</p>
+    </div>
+    
+    <footer class="last">
+       <span class="circle"></span>
+    </footer>
+</body>
+</html>
