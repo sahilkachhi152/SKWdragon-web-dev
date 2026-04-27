@@ -1,0 +1,116 @@
+       .logo {
+            background-color: yellow;
+        }
+
+        .logo img {
+            width: 160px;
+            height: 62px;
+        }
+
+        nav {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f6f6f6;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+            margin: 50px;
+            font-family: sans-serif;
+        }
+
+        .first span {
+            font-size: 30px;
+        }
+
+        .first p {
+            font-size: 20px;
+            width: 60vw;
+            text-align: center;
+        }
+      
+       .btn{
+            background-color: #00b6d1;
+            padding: 12px 16px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            margin: 12px 0 ;
+            cursor: pointer;
+        }
+        .btn a{
+            text-decoration: none;
+            color: white;
+        }
+        .flex{
+            display: flex;
+        }
+        .small{
+            font-size: 12px;
+        }
+        .second{
+          max-width: 50vw;
+          margin: auto;
+            flex-direction: column;
+         align-items: center;
+         /* background-color: aquamarine; */
+
+        }
+         .green{
+        background-color: rgba(68, 132, 68, 0.869);
+       }
+       .item{
+         padding: 23px;
+         background-color: #f9f9f9;
+         border-radius: 12px;
+         text-align: center;
+       }
+       .item-lang{
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 43px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+       }
+       .download  :nth-child(1){
+        font-size: 23px;
+       }
+       .download img{
+       height: 25px;
+       }
+    .download{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: sans-serif;
+    }
+    @media screen and (max-width: 1000px) {
+        .grid{
+           
+        grid-template-columns: 1fr;
+       
+       }
+    }
