@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+}
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+nav {
+    max-width: 90vw;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 5.5625rem;
+    height: 1.5rem;
+    
+}
+
+.btn {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.english {
+    padding: 5px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.sign {
+    border: none;
+    background-color: rgb(229, 9, 20);
+}
+
+.red {
+    border: none;
+    padding: 7px 12px;
+    font-size: 16px;
+    background-color: rgb(229, 9, 20);
+}
+
+input {
+    color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 1);
+    
+}
+
+.hero {
+    height: calc(100% - 70px);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+.separation {
+height: 5px;
+background: radial-gradient(circle at center, rgb(244, 96, 96), rgb(84, 19, 19));
+border-radius: 50%/8px;
+}
+
+.first {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.first div {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+.first img {
+    height: 150px;
+    transition: all 0.4s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease-in-out;
+}
+
+.secimg {
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.reasons {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 32px;
+    
+}
+
+.lower {
+    width: 100%px;
+    min-height: 150px;
+    border-radius: 12px;
+    background: linear-gradient(to top left, #15151e 0%, #2e2355 100%);
+    position: relative;
+    padding: 15px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 10px 32px;
+}
+
+.lower h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:777px) {
+    .reasons {
+        flex-direction: column;
+    }
+}
+
+.frequently {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.fre {
+    width: 90%;
+    min-height: 50px;
+    padding: 12px;
+    margin-left: 32px;
+    margin-bottom: 12px;
+    background-color: #2d2d2d;
+    transition: all 0.5s ease-in-out;
+}
+
+.fre:hover {
+    background-color: #434343;
+}
+
+.frequently span {
+    float: right;
+}
+
+.ready {
+    /* margin-left: 32px; */
+    margin: 50px 32px;
+    width: 90%;
+}
+
+.ready p {
+    margin-left: 32px;
+}
+
+.ready input {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.question {
+    margin: 32px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 32px;
+}
+
+.faq a {
+    cursor: pointer;
+    color: (255, 255, 255, 0.7);
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    margin: 10px;
+}
+.this{
+    font-size: 11px;
+    margin: 42px;
+}
+
+.this :nth-child(2){
+    margin-top: 32px;
+}
+.this :nth-child(3){
+    margin-top: 32px;
+}
