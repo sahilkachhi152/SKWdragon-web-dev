@@ -221,10 +221,6 @@ p {
     width: 90%;
 }
 
-.ready p {
-    margin-left: 32px;
-}
-
 .ready input {
     width: 70%;
     margin: 10px 0px;
